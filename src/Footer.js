@@ -5,7 +5,7 @@ import './Footer.scss';
 function  Footer(){
     return (
         <footer>
-            <p id='copy-right'>&copy; 2018 Code Fellows</p>
+            <p id='copy-right'>&copy; 2021 Code Fellows</p>
         </footer>
     )
 }
