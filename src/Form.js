@@ -9,7 +9,7 @@ class Form extends React.Component {
         url: '',
         method: ''
     }
-    clickHandler = (e) => { // should be arrow to prevent loss this value 
+    clickHandler = (e) => { 
         e.preventDefault();
         let newStat = { url: e.target.url.value, method: e.target.method.value }
         this.setState(newStat)
