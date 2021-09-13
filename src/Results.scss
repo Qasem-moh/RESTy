@@ -1,0 +1,23 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: balck;
+body {
+    text-align: center;
+    background: rgba(255, 253, 253, 0.856);
+
+}
+
+#show{
+    position: relative;
+    text-align: left;
+    background: rgb(190, 189, 189);
+    // border: 2px solid black;
+    margin: 5%;
+    margin-top: 3%;
+    height: 10px;
+    padding: 2%;
+    padding-bottom: 17%;
+    width: 70%;
+    left: 10%;
+    overflow:hidden;
+    overflow-y: scroll;
+}
