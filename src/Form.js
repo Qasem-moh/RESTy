@@ -16,14 +16,27 @@ class Form extends React.Component {
     }
     render() {
         return (
-            <React.Fragment>
+            <>
                 <main>
                     <form onSubmit={this.clickHandler}>
                         <div id='main-form'>
                             <div id='enter-url'>
                                 <label>URL: </label>
-                                <input type='url' name='url' id='url' required />
-                                <button type='submit'>GO!</button>
+                                <input type='url' name='url' id='url' required
+                                    style={{
+                                        height: '25px',
+                                        border: '3px solid ',
+                                        margin: '25px'
+                                    }} />
+                                <button type='submit' style={{
+                                    height: '25px',
+                                    margin: '25px',
+                                    width: '50px',
+                                    height: '30px',
+                                    fontSize: '20px'
+                                }}>
+                                    GO!
+                                </button>
                             </div>
 
                             <div id='methods'>
@@ -43,7 +56,7 @@ class Form extends React.Component {
                         </div>
                     </form>
                 </main>
-            </React.Fragment>
+            </>
         )
     }
 }

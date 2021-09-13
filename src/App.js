@@ -6,11 +6,11 @@ import Form from './Form';
 
 function App() {
   return (
-    <React.Fragment>
+    <>
       <Header/>
       <Form/>
       <Footer/>
-    </React.Fragment>
+    </>
   )
 }
 
